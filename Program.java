@@ -7,13 +7,16 @@ import java.util.Scanner;
 public class Program {
 
     public static ArrayList<String> elements;
+    public static ArrayList<String> combinations;
 
     static {
         try {
             elements = new ArrayList<String>(Files.readAllLines(Paths.get("elements.txt")));
+            combinations = new ArrayList<String>(Files.readAllLines(Paths.get("combinations.txt")));
         } catch (Exception e) {
             e.printStackTrace();
-            elements = new ArrayList<String>();
+            if (elements == null) elements = new ArrayList<String>();
+            if (combinations == null) combinations = new ArrayList<String>();
         }
     }
 
@@ -26,6 +29,7 @@ public class Program {
                     System.out.print(formula + " = ");
                     String result = kb.nextLine();
                     String combination = formula + " = " + result;
+                    combinations.add(combination);
                     append(combination, "combinations.txt");
                     if (!elements.contains(result)) {
                         elements.add(result);
