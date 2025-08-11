@@ -3,7 +3,6 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 public class Program {
 
@@ -41,13 +40,6 @@ public class Program {
     public static boolean formulaExists(String componentA, String componentB) {
         String formulaA = componentA + " + " + componentB;
         String formulaB = componentB + " + " + componentA;
-        try (Stream<String> lines = Files.lines(Paths.get("combinations.txt"))) {
-            for (String line : lines.toList()) if (line.contains(formulaA) || line.contains(formulaB)) return true;
-            return false;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
     }
 
     public static void append(String s, String file) {
