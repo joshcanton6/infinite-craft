@@ -42,8 +42,10 @@ public class Program {
     }
 
     public static boolean formulaExists(String componentA, String componentB) {
-        String formulaA = componentA + " + " + componentB;
-        String formulaB = componentB + " + " + componentA;
+        String formulaA = componentA + " + " + componentB + " =";
+        String formulaB = componentB + " + " + componentA + " =";
+        for (String c : combinations) if (c.startsWith(formulaA) || c.startsWith(formulaB)) return true;
+        return false;
     }
 
     public static void append(String s, String file) {
@@ -53,5 +55,4 @@ public class Program {
             e.printStackTrace();
         }
     }
-
 }
