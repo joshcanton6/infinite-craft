@@ -2,3 +2,71 @@ Water
 Fire
 Wind
 Earth
+Lake
+Steam
+Wave
+Plant
+Ocean
+Cloud
+Tsunami
+Swamp
+Fish
+Rain
+Marsh
+Fishbowl
+Rainbow
+Volcano
+Smoke
+Lava
+Fog
+Stone
+Ice
+Rock
+Iceberg
+Engine
+Lightning
+Dragon
+Sushi
+Goldfish
+Sun
+Wasabi
+Boiled Fish
+Solar
+Fire Breath
+Tornado
+Dust
+Storm
+Dandelion
+Hurricane
+Mist
+Flying Fish
+Eruption
+Sand
+Snow
+Windmill
+Kite
+Sunflower
+Fire Storm
+Sandstorm
+Seed
+Airplane
+Dune
+Blizzard
+Electricity
+Flying
+Dust Storm
+Sea Serpent
+Soup
+Mud
+Wine
+Beach
+Energy
+Oasis
+Boat
+Bird
+Leviathan
+Holy Water
+Mirage
+Ship
+Penguin
+Whale
